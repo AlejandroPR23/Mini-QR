@@ -7,7 +7,8 @@
     "Tecnología",
     "Compras",
     "Contactos",
-    "Cocina"
+    "Cocina",
+    "Educación"
   ],
   "logos": [
     {
@@ -115,6 +116,78 @@
       "category": "Cocina",
       "color": "#111827",
       "imageUrl": "svg/water-container-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Rana Estudiantil",
+      "name": "Rana Estudiantil",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Medalla",
+      "name": "Medalla",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-2-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Mochila",
+      "name": "Mochila",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-3-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Tablero",
+      "name": "Tablero",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-4-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Taza y lapices",
+      "name": "Taza y lapices",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-5-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bombilla",
+      "name": "Bombilla",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-6-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Reloj",
+      "name": "Reloj",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-7-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Libro",
+      "name": "Libro",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-8-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bus",
+      "name": "Bus",
+      "category": "Educación",
+      "color": "#111827",
+      "imageUrl": "svg/education/education-school-study-sticker-9-svgrepo-com.svg",
       "localSvg": true
     }
   ]
