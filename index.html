@@ -185,43 +185,11 @@
             tailwind.config = { theme: { extend: {} } };
         }
 
-        const patternStyles = [
-            { id: 'square', name: 'Cuadrado', type: 'square' },
-            { id: 'rounded', name: 'Redondeado', type: 'rounded' },
-            { id: 'dots', name: 'Puntos', type: 'dots' },
-            { id: 'classy', name: 'Classy', type: 'classy' },
-            { id: 'classy-rounded', name: 'Classy R.', type: 'classy-rounded' },
-            { id: 'extra-rounded', name: 'Extra Red.', type: 'extra-rounded' }
-        ];
-
-        const cornerStyles = [
-            { id: 'square', name: 'Cuadrado', square: 'square', dot: 'square' },
-            { id: 'rounded', name: 'Redondeado', square: 'extra-rounded', dot: 'dot' },
-            { id: 'circle', name: 'Círculo', square: 'dot', dot: 'dot' },
-            { id: 'extra-rounded', name: 'Extra R.', square: 'extra-rounded', dot: 'square' }
-        ];
-
-        const logoCategories = ['Todos', 'Medios', 'Navegación', 'Tecnología', 'Compras', 'Contactos', 'Cocina'];
-
-        const iconCdnBase = 'https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/';
-
-        const predefinedLogos = [
-            { id: 'youtube', name: 'YouTube', icon: 'fa-brands fa-youtube', color: '#FF0000', category: 'Medios', imageUrl: iconCdnBase + 'youtube.svg' },
-            { id: 'facebook', name: 'Facebook', icon: 'fa-brands fa-facebook-f', color: '#1877F2', category: 'Medios', imageUrl: iconCdnBase + 'facebook.svg' },
-            { id: 'instagram', name: 'Instagram', icon: 'fa-brands fa-instagram', color: '#E4405F', category: 'Medios', imageUrl: iconCdnBase + 'instagram.svg' },
-            { id: 'tiktok', name: 'TikTok', icon: 'fa-brands fa-tiktok', color: '#000000', category: 'Medios', imageUrl: iconCdnBase + 'tiktok.svg' },
-            { id: 'whatsapp', name: 'WhatsApp', icon: 'fa-brands fa-whatsapp', color: '#25D366', category: 'Medios', imageUrl: iconCdnBase + 'whatsapp.svg' },
-            { id: 'google', name: 'Google', icon: 'fa-brands fa-google', color: '#4285F4', category: 'Navegación', imageUrl: iconCdnBase + 'google.svg' },
-            { id: 'maps', name: 'Maps', icon: 'fa-solid fa-map-marker-alt', color: '#EA4335', category: 'Navegación', imageUrl: iconCdnBase + 'googlemaps.svg' },
-            { id: 'apple', name: 'Apple', icon: 'fa-brands fa-apple', color: '#000000', category: 'Tecnología', imageUrl: iconCdnBase + 'apple.svg' },
-            { id: 'android', name: 'Android', icon: 'fa-brands fa-android', color: '#3DDC84', category: 'Tecnología', imageUrl: iconCdnBase + 'android.svg' },
-            { id: 'paypal', name: 'PayPal', icon: 'fa-brands fa-paypal', color: '#003087', category: 'Compras', imageUrl: iconCdnBase + 'paypal.svg' },
-            { id: 'stripe', name: 'Stripe', icon: 'fa-brands fa-stripe', color: '#635BFF', category: 'Compras', imageUrl: iconCdnBase + 'stripe.svg' },
-            { id: 'telegram', name: 'Telegram', icon: 'fa-brands fa-telegram', color: '#26A5E4', category: 'Contactos', imageUrl: iconCdnBase + 'telegram.svg' },
-            { id: 'gmail', name: 'Gmail', icon: 'fa-solid fa-envelope', color: '#EA4335', category: 'Contactos', imageUrl: iconCdnBase + 'gmail.svg' },
-            { id: 'chef', name: 'Chef', category: 'Cocina', icon:"svg/chef-man-cap-svgrepo-com.svg", imageUrl: "svg/chef-man-cap-svgrepo-com.svg" },
-            { id: 'leche', name: 'Leche', category: 'Cocina', icon: "svg/water-container-svgrepo-com.svg", imageUrl: "svg/water-container-svgrepo-com.svg" },
-        ];
+        let patternStyles = [];
+        let cornerStyles  = [];
+        let logoCategories = [];
+        let predefinedLogos = [];
+        let frames = [];
 
         let currentPattern = 'rounded';
         let currentCorners = 'rounded';
@@ -229,129 +197,41 @@
         let currentBgColor = '#ffffff';
         let logoDataUrl = null;
         let selectedPredefinedLogo = null;
-
-        const frames = [
-            {
-                id: 'minimal', name: 'Minimalista', type: 'css',
-                outerClass: 'bg-white border-[7px] border-zinc-900 rounded-3xl shadow-2xl',
-                innerClass: 'bg-white p-[22px] rounded-2xl', extraHTML: '', qrSize: 265
-            },
-            {
-                id: 'badge-scan', name: 'Badge SCAN', type: 'css',
-                outerClass: 'bg-zinc-900 p-4 rounded-3xl shadow-2xl',
-                innerClass: 'bg-white p-[22px] rounded-2xl',
-                extraHTML: `<div class="absolute -right-[1px] top-1/2 -translate-y-1/2 bg-zinc-900 text-white px-3 py-[17px] rounded-r-3xl flex flex-col items-center" style="writing-mode: vertical-rl;"><span class="font-black text-[13px] tracking-[4px]">SCAN</span></div><div class="absolute bottom-[13px] left-1/2 -translate-x-1/2 bg-zinc-900 text-white text-[9px] font-mono tracking-[3.5px] px-4 py-[1px] rounded">CODE</div>`,
-                qrSize: 255
-            },
-            {
-                id: 'phone-scan-me', name: 'Phone SCAN ME', type: 'svg', qrSize: 195,
-                svgTemplate: `<svg width="380" height="520" viewBox="0 0 380 520" xmlns="http://www.w3.org/2000/svg"><rect x="95" y="40" width="190" height="380" rx="38" ry="38" fill="#111827"/><rect x="108" y="55" width="164" height="310" rx="12" ry="12" fill="#1f2937"/><rect id="qr-area" x="115" y="62" width="150" height="150" rx="8" ry="8" fill="white"/><rect x="155" y="390" width="70" height="6" rx="3" ry="3" fill="#374151"/><text x="190" y="470" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#111827" text-anchor="middle" letter-spacing="2">{{FRAME_TEXT}}</text><path d="M 245 455 Q 280 470 265 495" fill="none" stroke="#111827" stroke-width="7" stroke-linecap="round"/><path d="M 255 485 L 265 495 L 258 505" fill="none" stroke="#111827" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>`
-            },
-            {
-                id: 'business-card', name: 'Business Card', type: 'svg', qrSize: 150,
-                svgTemplate: `<svg width="380" height="230" viewBox="0 0 380 230" xmlns="http://www.w3.org/2000/svg">
-  <!-- Card shadow -->
-  <rect x="14" y="16" width="352" height="210" rx="18" ry="18" fill="#d1d5db" opacity="0.5"/>
-  <!-- Card background -->
-  <rect x="10" y="10" width="352" height="210" rx="18" ry="18" fill="#111827"/>
-  <!-- Decorative accent bar -->
-  <rect x="10" y="10" width="352" height="6" rx="3" ry="3" fill="#6366f1"/>
-  <!-- Left stripe accent -->
-  <rect x="10" y="16" width="6" height="198" rx="3" ry="3" fill="#6366f1"/>
-  <!-- QR area placeholder -->
-  <rect id="qr-area" x="205" y="35" width="135" height="150" rx="10" ry="10" fill="white"/>
-  <!-- Decorative dots top-left -->
-  <circle cx="50" cy="45" r="3" fill="#6366f1" opacity="0.7"/>
-  <circle cx="62" cy="45" r="3" fill="#6366f1" opacity="0.4"/>
-  <circle cx="74" cy="45" r="3" fill="#6366f1" opacity="0.2"/>
-  <!-- Name line -->
-  <rect x="35" y="60" width="140" height="10" rx="5" ry="5" fill="#f9fafb"/>
-  <!-- Title line -->
-  <rect x="35" y="80" width="100" height="7" rx="3.5" ry="3.5" fill="#6366f1" opacity="0.8"/>
-  <!-- Divider -->
-  <rect x="35" y="100" width="140" height="1.5" rx="1" ry="1" fill="#374151"/>
-  <!-- Info lines -->
-  <rect x="35" y="115" width="115" height="6" rx="3" ry="3" fill="#9ca3af"/>
-  <rect x="35" y="130" width="130" height="6" rx="3" ry="3" fill="#9ca3af"/>
-  <rect x="35" y="145" width="100" height="6" rx="3" ry="3" fill="#9ca3af"/>
-  <!-- Scan me label below qr -->
-  <text x="272" y="205" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#6366f1" text-anchor="middle" letter-spacing="3">{{FRAME_TEXT}}</text>
-</svg>`
-            },
-            {
-                id: 'shopping-bag-pro',
-                name: 'Bolsa QR',
-                type: 'svg',
-                qrSize: 250,
-                svgTemplate: `
-<svg width="420"
-     height="600"
-     viewBox="0 0 420 600"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <!-- Bolsa exterior -->
-    <path d="
-        M 70 120
-        L 130 120
-        L 130 55
-        Q 130 10 210 10
-        Q 290 10 290 55
-        L 290 120
-        L 350 120
-
-        Q 390 120 390 160
-        L 390 560
-
-        Q 390 595 355 595
-        L 65 595
-
-        Q 30 595 30 560
-        L 30 160
-
-        Q 30 120 70 120
-        Z
-    "
-    fill="#000000"/>
-
-    <!-- Hueco del asa -->
-    <rect
-        x="155"
-        y="35"
-        width="110"
-        height="75"
-        fill="#ffffff"
-        rx="3"/>
-
-    <!-- Marco interior gris -->
-    <rect
-        x="55"
-        y="145"
-        width="310"
-        height="330"
-        rx="10"
-        fill="#efefef"/>
-
-    <!-- Área QR -->
-    <rect id="qr-area" x="80" y="170" width="260" height="260" rx="4" fill="#ffffff"/>
-
-    <!-- Texto -->
-    <text
-        x="210"
-        y="545"
-        text-anchor="middle"
-        fill="#ffffff"
-        font-size="34"
-        letter-spacing="2"
-        font-family="Georgia, Times New Roman, serif">
-        {{FRAME_TEXT}}
-    </text>
-
-</svg>`
-            }
-        ];
-
         let currentFrameId = 'phone-scan-me';
         let qrCodeInstance = null;
+
+        async function loadData() {
+            const [patternsRes, cornersRes, logosRes, framesRes] = await Promise.all([
+                fetch('data/patterns.json'),
+                fetch('data/corners.json'),
+                fetch('data/logos.json'),
+                fetch('data/frames.json'),
+            ]);
+
+            const patternsData = await patternsRes.json();
+            const cornersData  = await cornersRes.json();
+            const logosData    = await logosRes.json();
+            const framesData   = await framesRes.json();
+
+            patternStyles  = patternsData.patterns;
+            cornerStyles   = cornersData.corners;
+            logoCategories = logosData.categories;
+
+            predefinedLogos = logosData.logos.map(logo => ({
+                ...logo,
+                icon: logo.imageUrl,
+            }));
+
+            frames = framesData.frames.map(f => {
+                if (f.svgTemplate) {
+                    const txt = document.createElement('textarea');
+                    txt.innerHTML = f.svgTemplate;
+                    f.svgTemplate = txt.value;
+                }
+                return f;
+            });
+        }
+
 
         function createFrameCards() {
             const grid = document.getElementById('frame-grid');
@@ -467,39 +347,20 @@
             filtered.forEach(logo => {
                 const card = document.createElement('div');
                 card.className = `logo-card p-2 rounded-xl cursor-pointer flex flex-col items-center justify-center border border-zinc-200 hover:border-zinc-300 bg-white aspect-square`;
-                const isImageUrl = logo.icon &&
-                    (logo.icon.startsWith('http://') ||
-                        logo.icon.startsWith('https://') ||
-                        logo.icon.startsWith('/'));
+
+                const iconSrc = logo.icon || logo.imageUrl;
+                const isImageUrl = iconSrc && (
+                    iconSrc.startsWith('http://') ||
+                    iconSrc.startsWith('https://') ||
+                    iconSrc.startsWith('/') ||
+                    iconSrc.startsWith('svg/')
+                );
 
                 const iconEl = isImageUrl
-                    ? `
-                    <img
-                        src="${logo.icon}"
-                        class="w-8 h-8 mb-1 object-contain"
-                        alt="${logo.name}"
-                    >
-                `
-                    : logo.icon
-                        ? `
-                        <i
-                            class="${logo.icon} text-2xl mb-1"
-                            style="color:${logo.color || '#111827'}"
-                        ></i>
-                    `
-                        : `
-                        <span
-                            class="text-2xl mb-1 leading-none font-bold"
-                            style="color:${logo.color || '#111827'}"
-                        >
-                            ${logo.name.substring(0, 2).toUpperCase()}
-                        </span>
-          `;
+                    ? `<img src="${iconSrc}" class="w-8 h-8 mb-1 object-contain" alt="${logo.name}">`
+                    : `<span class="text-2xl mb-1 leading-none font-bold" style="color:${logo.color || '#111827'}">${logo.name.substring(0, 2).toUpperCase()}</span>`;
 
-                card.innerHTML = `
-                    ${iconEl}
-                    <div class="text-[9px] text-center text-zinc-600 leading-none">${logo.name}</div>
-                `;
+                card.innerHTML = `${iconEl}<div class="text-[9px] text-center text-zinc-600 leading-none">${logo.name}</div>`;
 
                 card.onclick = async () => {
                     const canvas = document.createElement('canvas');
@@ -507,50 +368,41 @@
                     canvas.height = 240;
                     const ctx = canvas.getContext('2d');
 
-                    // White circular background for clean QR logo
                     ctx.fillStyle = '#ffffff';
                     ctx.beginPath();
                     ctx.arc(120, 120, 115, 0, Math.PI * 2);
                     ctx.fill();
 
-                    // Subtle light border
                     ctx.strokeStyle = '#f3f4f6';
                     ctx.lineWidth = 3;
                     ctx.beginPath();
                     ctx.arc(120, 120, 115, 0, Math.PI * 2);
                     ctx.stroke();
 
-                    // Support svgInline (embedded SVG string) in addition to imageUrl fetch
-                    const svgSource = logo.svgInline || null;
+                    const imageSource = logo.imageUrl || iconSrc;
 
-                    if (!logo.imageUrl && !svgSource) {
+                    if (!imageSource) {
                         drawInitialsOnCanvas(canvas, ctx, logo);
                         finalizeLogoSelection(logo, card, canvas.toDataURL('image/png'));
                         return;
                     }
 
                     try {
-                        let svgText;
-                        if (svgSource) {
-                            svgText = svgSource;
-                        } else {
-                            const imageSource = logo.imageUrl || (isImageUrl ? logo.icon : null);
-                            const response = await fetch(imageSource);
-                            if (!response.ok) throw new Error('SVG not found');
-                            svgText = await response.text();
-                        }
+                        const response = await fetch(imageSource);
+                        if (!response.ok) throw new Error('SVG not found');
+                        let svgText = await response.text();
 
-                        // Replace fill with brand color (works for simple-icons SVGs)
-                        svgText = svgText.replace(/fill="currentColor"/g, `fill="${logo.color}"`);
-                        svgText = svgText.replace(/fill="#000"/g, `fill="${logo.color}"`);
-                        svgText = svgText.replace(/fill="#000000"/g, `fill="${logo.color}"`);
+                        if (logo.color) {
+                            svgText = svgText.replace(/fill="currentColor"/g, `fill="${logo.color}"`);
+                            svgText = svgText.replace(/fill="#000"/g, `fill="${logo.color}"`);
+                            svgText = svgText.replace(/fill="#000000"/g, `fill="${logo.color}"`);
+                        }
 
                         const svgBlob = new Blob([svgText], { type: 'image/svg+xml;charset=utf-8' });
                         const svgUrl = URL.createObjectURL(svgBlob);
 
                         const img = new Image();
                         img.onload = () => {
-                            // Center and scale logo with comfortable padding
                             const padding = 42;
                             const maxDim = 240 - padding * 2;
                             const scale = Math.min(maxDim / img.width, maxDim / img.height, 1);
@@ -559,7 +411,6 @@
                             const dx = (240 - drawW) / 2;
                             const dy = (240 - drawH) / 2;
                             ctx.drawImage(img, dx, dy, drawW, drawH);
-
                             URL.revokeObjectURL(svgUrl);
                             finalizeLogoSelection(logo, card, canvas.toDataURL('image/png'));
                         };
@@ -694,20 +545,18 @@
                 }
 
                 let svgHTML = frame.svgTemplate;
+
                 let qrX = 115, qrY = 62, qrW = 150, qrH = 150;
-                if (frame.id === 'wifi-free') { qrX = 78; qrY = 148; qrW = 224; qrH = 224; }
-                if (frame.id === 'business-card') { qrX = 205; qrY = 35; qrW = 135; qrH = 150; }
-                if (frame.id === 'shopping-bag-pro') {
-                    qrX = 80;
-                    qrY = 170;
-                    qrW = 260;
-                    qrH = 260;
-                }
+                if (frame.id === 'wifi-free')         { qrX = 78;  qrY = 148; qrW = 224; qrH = 224; }
+                if (frame.id === 'business-card')      { qrX = 205; qrY = 35;  qrW = 135; qrH = 150; }
+                if (frame.id === 'shopping-bag-pro')   { qrX = 80;  qrY = 170; qrW = 260; qrH = 260; }
 
                 const qrImageTag = `<image href="${qrDataUrl}" x="${qrX}" y="${qrY}" width="${qrW}" height="${qrH}" preserveAspectRatio="xMidYMid meet"/>`;
                 svgHTML = svgHTML.replace(/<rect id="qr-area"[^>]*\/>/, qrImageTag);
+
                 const frameTextValue = document.getElementById('frame-text-input').value.trim() || 'SCAN ME';
                 svgHTML = svgHTML.replace(/{{FRAME_TEXT}}/g, frameTextValue);
+
                 svgContainer.innerHTML = svgHTML;
 
                 setTimeout(() => {
@@ -800,8 +649,10 @@
             link.click();
         }
 
-        function initializeEverything() {
+        async function initializeEverything() {
             initializeTailwind();
+            await loadData();
+
             createFrameCards();
             createPatternCards();
             createCornerCards();
