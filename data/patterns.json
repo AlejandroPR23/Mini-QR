@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/patterns.schema.json",
+  "patterns": [
+    {
+      "id": "square",
+      "name": "Cuadrado",
+      "type": "square"
+    },
+    {
+      "id": "rounded",
+      "name": "Redondeado",
+      "type": "rounded"
+    },
+    {
+      "id": "dots",
+      "name": "Puntos",
+      "type": "dots"
+    },
+    {
+      "id": "classy",
+      "name": "Classy",
+      "type": "classy"
+    },
+    {
+      "id": "classy-rounded",
+      "name": "Classy R.",
+      "type": "classy-rounded"
+    },
+    {
+      "id": "extra-rounded",
+      "name": "Extra Red.",
+      "type": "extra-rounded"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/corners.schema.json",
+  "title": "Corners Data Schema",
+  "description": "Esquema de validación para corners.json",
+  "type": "object",
+  "properties": {
+    "corners": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "square": { "type": "string" },
+          "dot": { "type": "string" }
+        },
+        "required": ["id", "name", "square", "dot"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["corners"]
+}

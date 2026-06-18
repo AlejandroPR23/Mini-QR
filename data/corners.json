@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/corners.schema.json",
+  "corners": [
+    {
+      "id": "square",
+      "name": "Cuadrado",
+      "square": "square",
+      "dot": "square"
+    },
+    {
+      "id": "rounded",
+      "name": "Redondeado",
+      "square": "extra-rounded",
+      "dot": "dot"
+    },
+    {
+      "id": "circle",
+      "name": "Círculo",
+      "square": "dot",
+      "dot": "dot"
+    },
+    {
+      "id": "extra-rounded",
+      "name": "Extra R.",
+      "square": "extra-rounded",
+      "dot": "square"
+    }
+  ]
+}

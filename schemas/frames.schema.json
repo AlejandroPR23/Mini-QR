@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/frames.schema.json",
+  "title": "Frames Data Schema",
+  "description": "Esquema de validación para frames.json - Plantillas de marcos para generador de QR",
+  "type": "object",
+  "properties": {
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 2
+          },
+          "name": {
+            "type": "string",
+            "minLength": 2
+          },
+          "type": {
+            "type": "string",
+            "enum": ["css", "svg"],
+            "description": "Tipo de marco: css o svg"
+          },
+          "qrSize": {
+            "type": "integer",
+            "minimum": 100,
+            "maximum": 400
+          },
+          "outerClass": {
+            "type": "string",
+            "description": "Clases CSS para el contenedor exterior (solo tipo css)"
+          },
+          "innerClass": {
+            "type": "string",
+            "description": "Clases CSS para el contenedor interior (solo tipo css)"
+          },
+          "extraHTML": {
+            "type": "string",
+            "description": "HTML adicional para decoraciones (solo tipo css)"
+          },
+          "svgTemplate": {
+            "type": "string",
+            "description": "Plantilla SVG completa. Debe contener el placeholder {{FRAME_TEXT}} si el marco lo soporta"
+          }
+        },
+        "required": ["id", "name", "type", "qrSize"],
+        "additionalProperties": false,
+        "if": {
+          "properties": { "type": { "const": "svg" } }
+        },
+        "then": {
+          "required": ["svgTemplate"]
+        },
+        "else": {
+          "required": ["outerClass", "innerClass"]
+        }
+      }
+    }
+  },
+  "required": ["frames"]
+}

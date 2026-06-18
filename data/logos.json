@@ -1,0 +1,121 @@
+{
+  "$schema": "../schemas/logos.schema.json",
+  "categories": [
+    "Todos",
+    "Medios",
+    "Navegación",
+    "Tecnología",
+    "Compras",
+    "Contactos",
+    "Cocina"
+  ],
+  "logos": [
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "category": "Medios",
+      "color": "#FF0000",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "category": "Medios",
+      "color": "#1877F2",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "category": "Medios",
+      "color": "#E4405F",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "category": "Medios",
+      "color": "#000000",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tiktok.svg"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "category": "Medios",
+      "color": "#25D366",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/whatsapp.svg"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "category": "Navegación",
+      "color": "#4285F4",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/google.svg"
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "category": "Navegación",
+      "color": "#EA4335",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlemaps.svg"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "category": "Tecnología",
+      "color": "#000000",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apple.svg"
+    },
+    {
+      "id": "android",
+      "name": "Android",
+      "category": "Tecnología",
+      "color": "#3DDC84",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/android.svg"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "category": "Compras",
+      "color": "#003087",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/paypal.svg"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "category": "Compras",
+      "color": "#635BFF",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stripe.svg"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "category": "Contactos",
+      "color": "#26A5E4",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/telegram.svg"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "category": "Contactos",
+      "color": "#EA4335",
+      "imageUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gmail.svg"
+    },
+    {
+      "id": "chef",
+      "name": "Chef",
+      "category": "Cocina",
+      "color": "#111827",
+      "imageUrl": "svg/chef-man-cap-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "leche",
+      "name": "Leche",
+      "category": "Cocina",
+      "color": "#111827",
+      "imageUrl": "svg/water-container-svgrepo-com.svg",
+      "localSvg": true
+    }
+  ]
+}

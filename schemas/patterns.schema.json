@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/patterns.schema.json",
+  "title": "Patterns Data Schema",
+  "description": "Esquema de validación para patterns.json",
+  "type": "object",
+  "properties": {
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" }
+        },
+        "required": ["id", "name", "type"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["patterns"]
+}
