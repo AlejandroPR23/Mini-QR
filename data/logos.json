@@ -276,6 +276,86 @@
       "color": "#111827",
       "imageUrl": "svg/animals/turtle-svgrepo-com.svg",
       "localSvg": true
+    },
+    {
+      "id": "Ansioso",
+      "name": "Ansioso",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/anxious-face-with-sweat-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Congelado",
+      "name": "Congelado",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/cold-face-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Gritando",
+      "name": "Gritando",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/face-screaming-in-fear-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Mascarilla",
+      "name": "Mascarilla",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/face-with-medical-mask-svgrepo-com.svg",
+      "localSvg": true 
+    },
+    {
+      "id": "Enojado",
+      "name": "Enojado",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/face-with-symbols-on-mouth-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Miedo",
+      "name": "Miedo",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/fearful-face-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Caliente",
+      "name": "Caliente",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/hot-face-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Dinero",
+      "name": "Dinero",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/money-mouth-face-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cara feliz con corazones",
+      "name": "Cara feliz con corazones",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/smiling-face-with-hearts-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cara feliz con gafas negras",
+      "name": "Cara feliz con gafas negras",
+      "category": "Emojis",
+      "color": "#111827",
+      "imageUrl": "svg/emoji/smiling-face-with-sunglasses-svgrepo-com.svg",
+      "localSvg": true
     }
   ]
 }
