@@ -668,6 +668,166 @@
       "color": "#111827",
       "imageUrl": "svg/medical/wheelchair-svgrepo-com.svg",
       "localSvg": true
+    },
+    {
+      "id": "AmazonPay",
+      "name": "Amazon Pay",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/amazon-pay-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bitcoin",
+      "name": "Bitcoin",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/bitcoin-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "BitPay",
+      "name": "BitPay",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/bitpay-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Efectivo",
+      "name": "Efectivo",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/cash-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Mastercard",
+      "name": "Mastercard",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/mastercard-full-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "PayU",
+      "name": "PayU",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/pay-u-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Payoneer",
+      "name": "Payoneer",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/payoneer-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "PayPal",
+      "name": "PayPal",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/paypal-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "PostFinance",
+      "name": "PostFinance",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/post-finance-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "PostePay",
+      "name": "PostePay",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/poste-pay-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "SEPA",
+      "name": "SEPA",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/sepa-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Skrill",
+      "name": "Skrill",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/skrill-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cadeau",
+      "name": "Cadeau",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/spirit-of-cadeau-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Stripe",
+      "name": "Stripe",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/stripe-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "UnionPay",
+      "name": "UnionPay",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/union-pay-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Verifone",
+      "name": "Verifone",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/verifone-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Visa",
+      "name": "Visa",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/visa-classic-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "VisaElectron",
+      "name": "Visa Electron",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/visa-electron-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "WebMoney",
+      "name": "WebMoney",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/web-money-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "WesternUnion",
+      "name": "Western Union",
+      "category": "Métodos de pago",
+      "color": "#111827",
+      "imageUrl": "svg/paymentMethods/western-union-svgrepo-com.svg",
+      "localSvg": true
     }
   ]
 }
