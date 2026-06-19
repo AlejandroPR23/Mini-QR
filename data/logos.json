@@ -8,6 +8,13 @@
     "Compras",
     "Contactos",
     "Cocina",
+    "Comida",
+    "Salud",
+    "Deportes",
+    "Transporte",
+    "Metodos de pago",
+    "Emojis",
+    "Animales",
     "Educación"
   ],
   "logos": [
@@ -188,6 +195,86 @@
       "category": "Educación",
       "color": "#111827",
       "imageUrl": "svg/education/education-school-study-sticker-9-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Gato",
+      "name": "Gato",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/cat-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cocodrilo",
+      "name": "Cocodrilo",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/crocodile-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Pescado",
+      "name": "Pescado",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/fish-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Perro",
+      "name": "Perro",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/husky-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Obeja",
+      "name": "Obeja",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/mianyang-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Gallina",
+      "name": "Gallina",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/rooster-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Tiburón",
+      "name": "Tiburón",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/shark-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Vaca",
+      "name": "Vaca",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/the-cow-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Tucan",
+      "name": "Tucan",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/toucan-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Tortuga",
+      "name": "Tortuga",
+      "category": "Animales",
+      "color": "#111827",
+      "imageUrl": "svg/animals/turtle-svgrepo-com.svg",
       "localSvg": true
     }
   ]
