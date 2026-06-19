@@ -307,7 +307,7 @@
       "category": "Emojis",
       "color": "#111827",
       "imageUrl": "svg/emoji/face-with-medical-mask-svgrepo-com.svg",
-      "localSvg": true 
+      "localSvg": true
     },
     {
       "id": "Enojado",
@@ -358,180 +358,236 @@
       "localSvg": true
     },
     {
-    "id": "Manzana",
-    "name": "Manzana",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/apple-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Aguacate",
-    "name": "Aguacate",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/avocado-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Plátano",
-    "name": "Plátano",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/banana-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Cerveza",
-    "name": "Cerveza",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/beer-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "JugoDeCereza",
-    "name": "Jugo de Cereza",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/cherry-juice-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Cereza",
-    "name": "Cereza",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/cherry-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Café",
-    "name": "Café",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/coffee-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Cono",
-    "name": "Cono",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/cone-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Pescado",
-    "name": "Pescado",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/fish-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Uva",
-    "name": "Uva",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/grape-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Malteada",
-    "name": "Malteada",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/juice-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Kiwi",
-    "name": "Kiwi",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/kiwi-fruit-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Limón",
-    "name": "Limón",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/lemon-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Paleta",
-    "name": "Paleta",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/lollipop-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Leche",
-    "name": "Leche",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/milk-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Durazno",
-    "name": "Durazno",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/peach-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "HuevosPoche",
-    "name": "Huevos Poché",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/poached-eggs-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Coctel",
-    "name": "Coctel",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/soda-water-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Refresco",
-    "name": "Refresco",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/soft-drink-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Bistec",
-    "name": "Bistec",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/steak-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Sandía",
-    "name": "Sandía",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/watermelon-svgrepo-com.svg",
-    "localSvg": true
-  },
-  {
-    "id": "Agua",
-    "name": "Agua",
-    "category": "Comida",
-    "color": "#111827",
-    "imageUrl": "svg/food/wine-bottle-svgrepo-com.svg",
-    "localSvg": true
-  }
+      "id": "Manzana",
+      "name": "Manzana",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/apple-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Aguacate",
+      "name": "Aguacate",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/avocado-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Plátano",
+      "name": "Plátano",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/banana-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cerveza",
+      "name": "Cerveza",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/beer-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "JugoDeCereza",
+      "name": "Jugo de Cereza",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/cherry-juice-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cereza",
+      "name": "Cereza",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/cherry-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Café",
+      "name": "Café",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/coffee-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cono",
+      "name": "Cono",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/cone-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Pescado",
+      "name": "Pescado",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/fish-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Uva",
+      "name": "Uva",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/grape-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Malteada",
+      "name": "Malteada",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/juice-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Kiwi",
+      "name": "Kiwi",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/kiwi-fruit-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Limón",
+      "name": "Limón",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/lemon-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Paleta",
+      "name": "Paleta",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/lollipop-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Leche",
+      "name": "Leche",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/milk-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Durazno",
+      "name": "Durazno",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/peach-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "HuevosPoche",
+      "name": "Huevos Poché",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/poached-eggs-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Coctel",
+      "name": "Coctel",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/soda-water-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Refresco",
+      "name": "Refresco",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/soft-drink-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bistec",
+      "name": "Bistec",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/steak-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Sandía",
+      "name": "Sandía",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/watermelon-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Agua",
+      "name": "Agua",
+      "category": "Comida",
+      "color": "#111827",
+      "imageUrl": "svg/food/wine-bottle-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Proteina",
+      "name": "Proteina",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/bottle-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Core",
+      "name": "Core",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/core-power-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Mancuerna",
+      "name": "Mancuerna",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/dumbbell-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Cardio",
+      "name": "Cardio",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/heart-lung-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bicicleta estatica",
+      "name": "Bicicleta estatica",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/stamina-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "CintaDeCorrer",
+      "name": "Cinta de Correr",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/treadmill-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Pesa",
+      "name": "Pesa",
+      "category": "Deportes",
+      "color": "#111827",
+      "imageUrl": "svg/gym/weight-svgrepo-com.svg",
+      "localSvg": true
+    }
   ]
 }
