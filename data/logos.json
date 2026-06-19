@@ -828,6 +828,86 @@
       "color": "#111827",
       "imageUrl": "svg/paymentMethods/western-union-svgrepo-com.svg",
       "localSvg": true
+    },
+    {
+      "id": "Avion",
+      "name": "Avión",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/airplane-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Bicicleta",
+      "name": "Bicicleta",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/bike-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Carguero",
+      "name": "Carguero",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/freighter-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Helicoptero",
+      "name": "Helicóptero",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/helicopter-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "TrenAltaVelocidad",
+      "name": "Tren de Alta Velocidad",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/high-speed-rail-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "GloboAerostatico",
+      "name": "Globo Aerostático",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/hot-air-balloon-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Velero",
+      "name": "Velero",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/sailboat-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Scooter",
+      "name": "Scooter",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/scooter-scooter-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Scraper",
+      "name": "Scraper",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/scraper-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Camioneta",
+      "name": "Camioneta",
+      "category": "Transporte",
+      "color": "#111827",
+      "imageUrl": "svg/transport/small-truck-svgrepo-com.svg",
+      "localSvg": true
     }
   ]
 }
