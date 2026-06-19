@@ -588,6 +588,86 @@
       "color": "#111827",
       "imageUrl": "svg/gym/weight-svgrepo-com.svg",
       "localSvg": true
+    },
+    {
+      "id": "Probeta",
+      "name": "Probeta",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/beaker-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Capsula",
+      "name": "Cápsula",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/capsule-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Clinica",
+      "name": "Clínica",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/clinic-building-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Medico",
+      "name": "Médico",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/doctor-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Inyeccion",
+      "name": "Inyección",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/inject-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Botiquin",
+      "name": "Botiquín",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/medicine-chest-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Medicina",
+      "name": "Medicina",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/medicine-icon-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "Enfermera",
+      "name": "Enfermera",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/nurse-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "TuboDeEnsayo",
+      "name": "Tubo de Ensayo",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/test-tube-svgrepo-com.svg",
+      "localSvg": true
+    },
+    {
+      "id": "SillaDeRuedas",
+      "name": "Silla de Ruedas",
+      "category": "Salud",
+      "color": "#111827",
+      "imageUrl": "svg/medical/wheelchair-svgrepo-com.svg",
+      "localSvg": true
     }
   ]
 }
